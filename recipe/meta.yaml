@@ -23,8 +23,11 @@ requirements:
     - pyct-core >=0.4.6
     - python >=3.6
   run:
+    - bokeh >=2.4.2
     - click >=8.0.3
+    - dask-geopandas
     - descartes >=1.1.0
+    - distributed >=2021.06.0
     - flask >=2.0.2
     - flask-cors >=3.0.10
     - geopandas >=0.10.2
@@ -39,7 +42,7 @@ requirements:
     - rasterio >=1.2.10
     - rioxarray >=0.9.1
     - spatialpandas >=0.4.3
-    - xarray-spatial >=0.3.1
+    - xarray-spatial >=0.3.5
 
 test:
   imports:
@@ -61,4 +64,4 @@ extra:
   recipe-maintainers:
     - brendancol
     - giancastro
-    - ianthomas23
+    - thuydotm
